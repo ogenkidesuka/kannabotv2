@@ -34,7 +34,7 @@ let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.documen
     conn.reply(m.chat, logs, m)
 }}
 handler.command = /^(pesan|balas)$/i
-handler.rowner = false
+handler.owner = true
 handler.limit = true
 handler.premium = false
 handler.group = false
